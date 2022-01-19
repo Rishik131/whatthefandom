@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/image-5.png" sizes="32x32">
+    <title>Payment Confirmation</title>
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #D8D0D0;
+            width: 80%;
+        }
+
+        section {
+            width: 600px;
+            margin: auto;
+        }
+
+        #header_section {
+            background-color: #252627;
+        }
+
+        #content_section {
+            background-color: #F9F9F9;
+        }
+
+        #tail_section {
+            background-color: #273478;
+        }
+
+        div {
+            width: 600px;
+            margin: 0px auto;
+            padding: 20px 0px;
+            text-align: center;
+        }
+
+        #logo_img {
+            width: 100px;
+            margin-right: 40px;
+        }
+
+
+        h1 {
+            width: 300px;
+            margin: auto;
+            color: #ECE2D0;
+            text-align: center;
+        }
+
+        #pay_conf_title {
+            font-size: 50px;
+            width: 600px;
+        }
+
+        #WTF_title {
+            font-size: 72px;
+            font-family: georgia, palatino;
+        }
+
+        #tag_h1 {
+            font-size: 32px;
+            font-family: 'comic sans ms', sans-serif;
+        }
+
+        /* #WTF_logo_div {
+      margin: 0pc;
+    } */
+
+        #WTF_logo_img {
+            width: 40%;
+            max-width: 150px;
+            margin-left: 40px;
+        }
+
+        #coord_list {
+            text-align: center;
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        #coord_list li {
+            display: inline;
+            margin: 15px;
+        }
+
+        #content_div {
+            width: 540px;
+            text-align: left;
+            font-size: 1.2em;
+            color: #001eb3;
+            padding: 30px;
+        }
+
+        #social_link_table {
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        .social_link_a {
+            width: 100px;
+        }
+
+        a img {
+            width: 30px;
+        }
+
+        #email_a {
+            text-decoration: none;
+            color: #AAB8B8;
+            font-size: 0.85em;
+            font-family: 'Open Sans', sans-serif
+        }
+
+        #copyright_div {
+            text-decoration: none;
+            color: #AAB8B8;
+            font-size: 0.7em;
+            font-family: 'Open Sans', sans-serif
+        }
+
+        #tagline_div {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        #join_discord {
+            color: white;
+            font-size: 1.05em;
+            height: 50px;
+            width: 200px;
+            margin: auto;
+            padding: auto 20px;
+            text-align: center;
+            background-color: #273478;
+            border: none;
+            border-radius: 25px;
+            font-family: 'Open Sans',sans-serif;
+        }
+
+        #join_discord:hover{
+            cursor:pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="header_section">
+
+        <div id="logo_div">
+            <img id="logo_img" src="images/image-5.png" alt="PALS logo">
+            <img id="WTF_logo_img" src="images/image-6.png" alt="WTF_logo">
+        </div>
+
+        <div id="title_div">
+            <h1 id="pay_conf_title">Payment Confirmed</h1>
+            <hr>
+            <h1 id="WTF_title">WTF...</h1>
+            <h1 id="tag_h1">What The Fandom</h1>
+        </div>
+
+        <div id="WTF_logo_div">
+        </div>
+
+    </section>
+
+
+    <section id="content_section">
+        <div id="content_div">
+            Dear Participant,<br><br>
+            Congratulations on successfully participating in WTF (What The Fandom) by PALS, VIT - Chennai, to be held on 5th - 6th Feb. Your transaction has been confirmed from our side. Thank you for registering with us. Best wishes from our side. <br><br>
+            You are kindly requested to join our discord server for further announcements/notices. In case of any kind of issue or query, kindly contact are event co-ordinators.<br><br>
+            Click below to join our discord server:<br><br>
+            <div>
+                <button id="join_discord" onclick= "window.location.href='https://discord.gg/eDpeHetp'" ><strong style="width: 100%;">Discord Server</strong></button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="tagline_div">
+            For any queries please contact our co-ordinator,<br>
+            <ul id="coord_list">
+                <li>
+                    <strong>Sparsh Wabhale: </strong> <span>+91 63803 26044</span>
+                </li>
+                <li>
+                    <strong>Sanjay Suresh </strong> <span>+91 98404 74183</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="tail_section">
+
+        <div id="social_links_div">
+            <table id="social_link_table">
+                <tr>
+                    <td><a class="social_link_a" href="https://www.instagram.com/palsvitc/"><img
+                                src="images/image-1.png" alt="Instagram_link"></a></td>
+                    <td><a class="social_link_a" href="https://twitter.com/PALSvitc"><img src="images/image-4.png"
+                                alt="Twitter_link"></a></td>
+                    <td><a class="social_link_a"
+                            href="https://www.linkedin.com/company/pals-vit-chennai/mycompany/"><img
+                                src="images/image-2.png" alt="Linkedin_link"></a></td>
+                    <td><a class="social_link_a" href="https://www.youtube.com/channel/UCUf8poej-VvQzc7gog84sbQ"><img
+                                src="images/image-3.png" alt="Youtube_link"></a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="email_div">
+            <a href="" id="email_a">EMAIL: hello@palsvit.com</a>
+        </div>
+
+        <hr>
+
+        <div id="copyright_div">
+            © PALS VITC | All Rights Reserved
+        </div>
+
+    </section>
+</body>
+
+</html>
